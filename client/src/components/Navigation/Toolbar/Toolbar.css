@@ -1,0 +1,40 @@
+header {
+   background-color: var(--headline);
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+}
+
+header nav {
+   display: flex;
+   align-items: center;
+   max-width: 1040px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+.Brand {
+   width: 80px;
+   margin-right: 10px;
+}
+
+.Logo {
+   width: 100%;
+}
+
+.ToogleBtn {
+   display: none;
+   margin-left: auto;
+   width: 30px;
+}
+
+.ToogleBtn img {
+   width: 100%;
+}
+
+@media (max-width: 900px) {
+   .ToogleBtn {
+      display: block;
+   }
+}

@@ -1,0 +1,98 @@
+.Auth {
+   max-width: 95%;
+   min-width: 90%;
+   margin: 80px auto 0 auto;
+}
+
+.Auth .row {
+   height: 510px;
+}
+
+.Auth .row .col {
+   align-self: center;
+}
+
+.AuthForm {
+   width: 360px;
+   margin: 0 auto;
+}
+
+.AuthForm h1 {
+   font: 500 40px var(--font_family);
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.AuthForm .Input {
+   margin: 15px 0;
+}
+
+.AuthForm input,
+.AuthForm label {
+   font: 400 16px var(--font_family);
+}
+
+.AuthForm label {
+   margin-bottom: 7px;
+}
+
+.authBtn {
+   margin: 25px 0;
+   width: 100%;
+   text-align: center;
+}
+
+.SwapAuth {
+   width: 100%;
+   text-align: center;
+}
+
+.SwapAuth * {
+   font: 400 16px var(--font_family);
+}
+
+.SwapAuth .SwapAuthBtn {
+   cursor: pointer;
+   color: var(--primary-color);
+}
+
+.SwapAuth .SwapAuthBtn:hover,
+.SwapAuth .SwapAuthBtn:active {
+   font-weight: 500;
+}
+
+/* Right Side */
+.Signup_right {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Signup_right .svg_bg {
+   width: 90%;
+   height: 80%;
+   background-image: url(../../assets/auth_bg.svg);
+   background-size: cover;
+}
+
+/* For small laptop */
+@media (max-width: 900px) {
+   .AuthForm {
+      width: 310px;
+      margin: 0 auto;
+   }
+   .Signup_right .svg_bg {
+      width: 90%;
+      height: 60%;
+   }
+}
+
+/* For small tablet */
+@media (max-width: 786px) {
+   .AuthForm {
+      width: 300px;
+      margin: 0 auto;
+   }
+}

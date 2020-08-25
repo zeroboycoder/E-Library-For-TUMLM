@@ -1,0 +1,40 @@
+.EbookDetail {
+   max-width: 900px;
+   width: 90%;
+   margin: 75px auto;
+}
+
+.EbookDetail__Heading {
+   font: 500 42px var(--font_family);
+   letter-spacing: 0.5px;
+   padding-left: 10px;
+   border-left: 7px solid #184d47;
+}
+
+.EbookDetail__BookCover {
+   width: 200px;
+   margin: 30px auto;
+}
+
+.EbookDetail__BookCover img {
+   width: 100%;
+}
+
+.EbookDetail__DownloadBtn {
+   display: flex;
+   justify-content: center;
+}
+
+/* For Tablet */
+@media (max-width: 786px) {
+   .EbookDetail__Heading {
+      font: 500 32px var(--font_family);
+   }
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+   .EbookDetail__Heading {
+      font-size: 28px;
+   }
+}
